@@ -1,0 +1,420 @@
+
+
+.product-title{
+    margin-top: 20px;
+}
+
+.hr-title{
+    border: 2px solid rgb(153, 204, 0);
+}
+
+.description-top{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.systems{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+.sub-systems{
+    background-color: rgb(255, 254, 254);
+    padding: 5px;
+    
+}
+
+.systems-title{
+    background-color: rgb(153, 204, 0);
+    padding: 9px;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.systems-feature{
+    background-color: rgb(197, 197, 197);
+    padding: 9px;
+    font-size: 14px;
+    margin-bottom: 9px;
+   
+    
+}
+.system-feature-check{
+}
+.system-feature-title{
+}
+
+.system-feature-price{
+}
+
+.tools-title{
+    background-color: rgb(153, 204, 0);
+    padding: 15px;
+    font-size: 19px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.tool{
+    background-color: rgb(211, 209, 209);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.tool-count{
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.tool-count-old{
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+.price{
+    color:red
+}
+
+.final{
+    
+    padding: 20px;
+    font-size: 17px;
+}
+
+.confirm-box{
+  margin-bottom: 25px;
+  padding-top:20px ;
+}
+
+#register-btn{
+  background-color: rgb(96, 128, 0);
+  border: none;
+}
+
+
+
+input[type='checkbox'] { 
+
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    content: '✔';
+}
+
+
+
+
+.confirm-box{
+    background-color: rgb(212, 212, 212);
+}
+
+.registerform{
+  margin:40px ;
+}
+
+.col-form-label{
+  width: 100px;
+}
+
+.select-city{
+  height: 50px;
+}
+
+
+.sy1{
+  background-color: rgb(160, 160, 160);
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+.syselect{
+  background-color: rgb(160, 160, 160);
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+.sy11-title{
+  font-size: 13px;
+}
+
+.mobilecount{
+  font-size: 14px;
+}
+
+.final-discription{
+  font-size: 13px;
+}
+
+
+select:disabled {
+  cursor: no-drop;
+}
+
+
+label{
+  margin-right:5px ;
+}
+
+
+
+
+.register{
+  margin-top:20px ;
+  background-color: white;
+  padding-top:15px ;
+}
+
+
+.alert-register{
+  font-size: 14px;
+}
+
+
+
+
+#real-user-form , #legal-user-form {
+  border: 1px silver solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  
+
+}
+
+
+
+
+
+
+
+
+
+#modalContainer {
+    background-color:rgba(0, 0, 0, 0.3);
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    left:0px;
+    z-index:10000;
+  }
+  
+  #alertBox {
+    position:relative;
+    width:33%;
+    min-height:100px;
+    max-height:400px;
+    margin-top:50px;
+    border:1px solid #fff;
+    background-color:#fff;
+    background-repeat:no-repeat;
+    top:30%;
+  }
+  
+  #modalContainer > #alertBox {
+    position:fixed;
+  }
+  
+  #alertBox h5 {
+    margin:0;
+    font:14px ;
+    background-color:#f97352;
+    color:#FFF;
+    border-bottom:1px solid #f97352;
+    padding:10px 0 10px 5px;
+  }
+  
+  #alertBox p {
+    height:50px;
+    padding-left:5px;
+    padding-top:30px;
+    text-align:center;
+    vertical-align:middle;
+  }
+  
+  #alertBox #closeBtn {
+    display:block;
+    position:relative;
+    margin:100px auto 10px auto;
+    padding:7px;
+    border:0 none;
+    width:70px;
+    text-transform:uppercase;
+    text-align:center;
+    color:#FFF;
+    background-color:#f97352;
+    border-radius: 0px;
+    text-decoration:none;
+    outline:0!important;
+  }
+  
+  /* unrelated styles */
+  
+  #mContainer {
+    position:relative;
+    width:600px;
+    margin:auto;
+    padding:5px;
+    border-top:2px solid #fff;
+    border-bottom:2px solid #fff;
+  }
+  
+  h1,h2 {
+    margin:10;
+    padding:4px;
+  }
+  
+  code {
+    font-size:14px;
+    color:#069;
+  }
+  
+  #credits {
+    position:relative;
+    margin:25px auto 0px auto;
+    width:350px; 
+    font:14px;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    height:90px;
+    padding-top:4px;
+  }
+  
+  #credits img {
+    float:left;
+    margin:5px 10px 5px 0px;
+    border:1px solid #000000;
+    width:80px;
+    height:79px;
+  }
+  
+  .important {
+    background-color:#F5FCC8;
+    padding:2px;
+  
+  }
+  
+  @media (max-width: 600px) 
+  {
+    #alertBox {
+    position:relative;
+    width:90%;
+    top:30%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .bootstrap-select.open > .dropdown-menu{
+    /*display: block;*/
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    -webkit-transform: scale(1) translateY(0);
+    -ms-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+  }
+  .bootstrap-select > .dropdown-menu{
+    /*display: none;*/
+    opacity: 0;
+    max-height: 330px !important;
+    visibility: hidden;
+    overflow: hidden;
+    -webkit-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transform: scale(0.85) translateY(-5px);
+    -ms-transform: scale(0.85) translateY(-5px);
+    transform: scale(0.85) translateY(-5px);
+    -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+  }
+  
+ 
+  .box{
+    width: 400px;
+    height: 120px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  }
+  h2{
+    text-align: center;
+  }
+  .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+    width: 100%;
+  }
+  .bootstrap-select>.dropdown-toggle{
+    background: #fcfcfc;
+    border: 0;
+    width: 100%;
+    display: block;
+    padding: 16px 15px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.030em;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+  }
+  .bootstrap-select>.dropdown-toggle.bs-placeholder, .bootstrap-select>.dropdown-toggle.bs-placeholder:active, .bootstrap-select>.dropdown-toggle.bs-placeholder:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder:hover{
+    color: #000;
+  }
+  .dropdown-toggle::after {
+    content: "";
+    position: absolute;
+    border-top: .5em solid;
+    border-right: .5em solid transparent;
+    border-bottom: 0;
+    border-left: .5em solid transparent;
+    right: 10px;
+    top: 48%;
+  }
+  .dropdown-menu{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 0;
+    background: #fff;
+    min-width: 100% !important;
+    width: 100% !important;
+  }
+  .bootstrap-select .dropdown-menu a{
+    display: block;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.030em;
+  }
+
+
+
+
+
+
+
+  
